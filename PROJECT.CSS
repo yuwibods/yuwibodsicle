@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F8DAE4;
+    position: sticky;
+    height: 60px; 
+}
+
+li {
+    float: right;
+    font-family: 'Faith Hope', sans-serif;
+    padding-right: 20px; 
+    line-height: 60px; 
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    height: 90%; 
+}
+
+li a:hover {
+    background-color: #f18fb0;
+}
+
+.sarinna {
+   height: 43px; 
+   width: 43px;
+   padding-left: 50px;
+}
+
+body {
+   background-color: #f8e5ec;
+   font-size: 16px; 
+}
+
+.sarinna {
+    height: 43px;
+    width: 43px;
+    margin: 8px 20px; 
+    float: left;
+} 
+
+a {
+    font-family: 'Dortmund', sans-serif;
+}
+
+body {
+    background-color: #f8e5ec;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.crafts {
+    font-family: 'Faith Hope', sans-serif;
+    color: #56142a;
+    font-size: 70px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    animation: fadeInLeft 1s ease;
+}
+
+.stussy, .spiderman, .ball, .gwen {
+    text-align: center;
+    width: calc(25% - 20px); 
+    margin: 0 10px;
+    animation: fadeInLeft 1s ease;
+}
+
+.ball {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 320px;
+    width: 100%;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.best {
+    font-family: 'Comic Cheese', sans-serif;
+    padding-top: 150px;
+}
+
+.ball {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 320px;
+    width: 250px;
+}
+
+.stussy {
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Comic Cheese', sans-serif;
+    float: left;
+}
+
+.spiderman {
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 20px;
+    float: left;
+}
+
+#home {
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
